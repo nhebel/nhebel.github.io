@@ -17,8 +17,10 @@
   <footer class="sticky-bottom mt-5" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
-    {% endif %}
-
+    {% endif %} 
+    <div style="width:60%;vertical-align:middle;margin:auto;text-align:center">
+      <img src="assets/img/UT_ORIE_logo.png" alt="ORIE Logo" style="width:auto;max-width:100%" />
+    </div>
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
